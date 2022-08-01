@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#top{
+    background-color: black;
+}
+
+#navbar{
+    width: 1080px;
+    height: 80px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navlinks{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+#navtitle{
+    margin-left: 30px;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#signout{
+    height: 30px;
+    width: 100px;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+}
+
+#row{
+    display: flex;
+}
+
+#col, #col-2{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+#col{
+    flex: 2;
+}
+
+#flex-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card, .card{
+    width: 100%;
+    background-color: white;
+    border: 3px solid lightgray;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+#card-top{
+    background-color: lightseagreen;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card-body h1, .card-body h2, .card-body h4, .card-body p{
+    margin: 20px 0px;
+}
+
+#user{
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    background-color: white;
+    height: 180px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon{
+    height: 15px;
+}
+
+a{
+    color: royalblue;
+}
+
+.header{
+    background-color: rgb(78, 75, 75);
+    color: white;
+    padding: 20px;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+}
+
+.avatar{
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-line{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start, .end{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#date{
+    color: gray;
+}
+
+.footer{
+    border-top: 3px solid lightgrey;
+    padding: 20px;
+}
+
+.connections{
+    background-color: lightslategray;
+    color: black;
+    border-radius: 45%;
+    height: 25px;
+    font-size: 20px;
+    padding: 0px 10px;
+    padding-top: 4px;
+    margin-right: 10px;
+}
